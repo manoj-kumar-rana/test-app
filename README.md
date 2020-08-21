@@ -1,2 +1,2 @@
 # test-app
-this is my first spring boot application.
+This is my first spring boot application.
