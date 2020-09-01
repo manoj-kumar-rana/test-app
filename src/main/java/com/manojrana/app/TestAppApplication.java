@@ -6,18 +6,14 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-
-//public class TestAppApplication {
-//}
-
 @SpringBootApplication
-public class TestAppApplication extends SpringBootServletInitializer{
+public class TestAppApplication extends SpringBootServletInitializer {
 
 	@Bean
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(TestAppApplication.class, args);
 	}
