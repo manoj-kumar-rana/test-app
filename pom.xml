@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>com.manojrana</groupId>
 	<artifactId>test-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>test-app</name>
 	<description>Test Application</description>
 
@@ -103,4 +103,5 @@
 		</plugins>
 	</build>
 	
+	<packaging>war</packaging>
 </project>
