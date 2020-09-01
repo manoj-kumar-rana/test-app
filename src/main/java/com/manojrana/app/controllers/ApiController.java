@@ -20,6 +20,13 @@ public class ApiController {
 		return "Hello Mr. Rana";
 
 	}
+	
+	@GetMapping("/hello2")
+	public String sayHello2() {
+
+		return "Hello Mr. Kumar";
+
+	}
 
 	@PostMapping("/payment")
 	public void getPayment(@RequestBody Payment payment, HttpServletResponse httpServletResponse) {
