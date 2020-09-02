@@ -24,7 +24,7 @@ public class ApiController {
 	@GetMapping("/hello2")
 	public String sayHello2() {
 
-		return "Hello Mr. Kumar";
+		return "Hello Mr. Manoj";
 
 	}
 
